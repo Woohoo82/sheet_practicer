@@ -28,7 +28,7 @@ void draw() {
   background(0);
   stroke(255);
   text(counterGood+"/"+(counterAll-1)+"   "+
-      ((float)(counterGood+1.0)/(float)counterAll)*100+"%",
+      round((float)(counterGood+1.0)/(float)counterAll*100)+"%",
       20, height - 2);
   
   // draw lines
